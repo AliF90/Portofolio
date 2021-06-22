@@ -133,7 +133,7 @@
     				<div class="col-lg-7">
     					<div class="content">
 							<h4 class="title title-left">I Love Coding</h4>
-    						<p>I am <span>Ali</span>, Passionate Web Developer with 2 years of professional experience building 
+    						<p>I am <span>Ali</span>, passionate Web Developer with 2 years of professional experience building 
 								web applications. Excelling in full-stack development using Web Frameworks. 
 								Graduated April 2021 with GPA 3.9, looking for Entry-Level position.</p>
     						<p>Check out my projects at <a href="#" data-scroll-nav="3" style="font-weight: bold;"> Portfolio</a> or <a href="https://github.com/AliF90" target="_blank" style="font-weight: bold;"> Github</a>.</p>
@@ -186,8 +186,8 @@
 									<p>Toronto, ON</p>
     								<p>Advanced Diploma</p>
 									<p>Computer Programming Analyst</p>
-									<p>Graduating April 2021</p>
-									<p>GPA: 3.97</p>
+									<p>Graduated April 2021</p>
+									<p>GPA: 3.9</p>
     							</li>
     						</ul>
     					</div>
@@ -348,6 +348,30 @@
     				</div>
 
     				<div class="owl-carousel owl-theme">
+						<div class="pitem">
+    						<div class="post-img">
+    							<a href="#0">
+    								<img src="img/au-project.png" alt="" style="height: 15rem; object-fit: cover;">
+    							</a>
+    							<a href="#0" class="tag">Industrial Project</a>
+    						</div>
+    						<div class="content">
+    							<h3>
+    								<a href="#0">Academic Upgrading Form</a>
+    							</h3>
+    							<p>
+									Academic Upgrading Reigstration Form is a web application used for applicants to register for different courses held by George Brown College
+									<br>Link: <a href="https://academicupgrading.georgebrown.ca/au">AU @Geroge Brown College</a>
+								</p>
+    							<div class="info">
+    								<span class="more">
+										<button type="button" class="btn" data-toggle="modal" data-target="#AuProjectModal">
+											Read More
+										</button>
+    								</span>
+    							</div>
+    						</div>
+    					</div>
     					<div class="pitem">
     						<div class="post-img">
     							<a href="#0">
@@ -364,6 +388,30 @@
     							<div class="info">
     								<span class="more">
 										<button type="button" class="btn" data-toggle="modal" data-target="#kitchenProjectModal">
+											Read More
+										</button>
+    								</span>
+    							</div>
+    						</div>
+    					</div>
+						<div class="pitem">
+    						<div class="post-img">
+    							<a href="#0">
+    								<img src="img/msapmathform.png" alt="" style="height: 15rem; object-fit: cover;">
+    							</a>
+    							<a href="#0" class="tag">Industrial Project</a>
+    						</div>
+    						<div class="content">
+    							<h3>
+    								<a href="#0">MSAP Math Registration</a>
+    							</h3>
+    							<p>
+									MSAP Math Reigstration Form is a web application used for applicants to register for Math Courses in George Brown College
+									<br>Link: <a href="https://academicupgrading.georgebrown.ca/msap_math/">MSAP Math @George Brown College</a>
+								</p>
+    							<div class="info">
+    								<span class="more">
+										<button type="button" class="btn" data-toggle="modal" data-target="#mathProjectModal">
 											Read More
 										</button>
     								</span>
@@ -394,18 +442,18 @@
     					<div class="pitem">
     						<div class="post-img">
     							<a href="#0">
-    								<img src="img/restaurantmain.jpg" alt="" style="height: 15rem; object-fit: contain;">
+    								<img src="img/kinect.png" alt="" style="height: 15rem; object-fit: contain;">
     							</a>
-    							<a href="#0" class="tag">Course Project</a>
+    							<a href="#0" class="tag">Lab Project</a>
     						</div>
     						<div class="content">
     							<h3>
-    								<a href="#0">The Restaurant Guide</a>
+    								<a href="#0">Home-based Rehabilitation</a>
     							</h3>
-    							<p>The goal of this application is to help users share, rate and comment their experience after dining in a restaurant so the next users have something to compare.</p>
+    							<p>Design and implementation of a Home-based smart system to monitor and control physiotherapy rehabilitation exercises</p>
     							<div class="info">
     								<span class="more">
-										<button type="button" class="btn" data-toggle="modal" data-target="#restaurantProjectModal">
+										<button type="button" class="btn" data-toggle="modal" data-target="#kinectProjectModal">
 											Read More
 										</button>
     								</span>
@@ -565,7 +613,184 @@
     	<!-- End Footer ====
     	======================================= -->
 
+		<!-- Math Modal -->
+		<div class="modal fade" id="mathProjectModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title">MSAP Math Registration</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<p>
+									Link: <a href="https://academicupgrading.georgebrown.ca/msap_math">https://academicupgrading.georgebrown.ca/msap_math</a>
+								</p>
+								<p>
+									MSAP Math Registration web application is being used by applicants to apply for George Brown College Math courses.
+									The landing page shows some info about the courses along with times and starting dates. It navigates to the form web application which has 7 steps to do the registration process.
+									The framework used for this projet is django along with MySQL database. 
+								</p>
+							</div>
+							<div class="row my-5">
+								<img src="img/msapmathlandingpage.png" alt="">
+							</div>
+							<div class="row">
+								<p>
+									The forms has been implemented using Django Forms tool. For front end valication we used jquery and for backend validation django form validation has been used.
+								</p>
+							</div>
+							<div class="row">
+								<p>
+									The data gathered from used are being saved as cookies so applicants can save their forms to finish them later.
+								</p>
+							</div>
+							<div class="row responsibilities">
+								My Responsibilities:
+							</div>
+							<div class="row responsibilitytitle">
+								Backend Developer (Django)
+							</div>
+							<div class="row">
+								<ul>
+									<li>Developing the backend of the web application using Django and using MySQL database.</li>
+									<li>Creating models and fields and validation methods for them.</li>
+									<li>Deploying the web application on George Brown Server.</li>
+									<li>Created and managed a Docker deployment pipeline for custom application images in the cloud using Jenkins</li>
+								</ul>
+							</div>
+							<div class="row responsibilitytitle">
+								Frontend developer
+							</div>
+							<div class="row">
+								<ul>
+									<li>Used crispy forms enhanced with bootstrap 5 to create responsive form pages</li>
+									<li>Used jQuery Ajax for updating dynamic data based on user's entry</li>
+									<li>Used Bootstrap 5 tools like Grids, Flex and Modals</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<!-- Home-based Rehabilitation Modal -->
+		<div class="modal fade" id="kinectProjectModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title">Home-based Rehabilitation</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<p>
+									Design and implementation of a Home-based smart system to monitor and control physiotherapy rehabilitation exercises
+								</p>
+							</div>
+							<div class="row my-5">
+								<img src="img/kinect.png" alt="" style="width: 10vw;">
+							</div>
+							<div class="row">
+								<p>
+									The system implemented in this project uses Kinect windows as the sensor for monitoring the movements. The main advantage of this device is being cost-effective, simple and high reliable which makes it the best device to achieve our goal for using in the patients home. The Kinect should be connected to a laptop or PC for data transferring to the software. The software will do the process on the data and by the network, they will be sent to the doctor. The software can also guide the patient by showing the exercise to the user. 
+								</p>
+							</div>
+							<div class="row responsibilities">
+								My Responsibilities:
+							</div>
+							<div class="row">
+								<ul>
+									<li>Developed and built a Home-based smart system to monitor and control physiotherapy rehabilitation exercises
+										using Kinect Microsoft C SDK and AWS IoT (Alexa)
+										</li>
+									<li>Developed a Software with GUI on Kinect SDK using WPF to interact with user</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- AU Modal -->
+		<div class="modal fade" id="AuProjectModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h5 class="modal-title">Academic Upgrading Registration</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
+								<p>
+									Link: <a href="https://academicupgrading.georgebrown.ca/au">https://academicupgrading.georgebrown.ca/au</a>
+								</p>
+								<p>
+									Academic Upgrading Registration web application is being used by applicants to apply for George Brown College upgrading courses.
+									The landing page shows some info about the courses along with times and starting dates. It navigates to the form web application which has 7 steps to do the registration process.
+									The framework used for this projet is django along with MySQL database. 
+								</p>
+							</div>
+							<div class="row my-5">
+								<img src="img/au-project.png" alt="">
+							</div>
+							<div class="row">
+								<p>
+									The forms has been implemented using Django Forms tool. For front end valication we used jquery and for backend validation django form validation has been used.
+								</p>
+							</div>
+							<div class="row my-5">
+								<img src="img/auform.png" alt="">
+							</div>
+							<div class="row">
+								<p>
+									The data gathered from used are being saved as cookies so applicants can save their forms to finish them later.
+								</p>
+							</div>
+							<div class="row my-5">
+								<img src="img/mailingaddress.png" alt="">
+							</div>
+							<div class="row responsibilities">
+								My Responsibilities:
+							</div>
+							<div class="row responsibilitytitle">
+								Backend Developer (Django)
+							</div>
+							<div class="row">
+								<ul>
+									<li>Developing the backend of the web application using Django and using MySQL database.</li>
+									<li>Creating models and fields and validation methods for them.</li>
+									<li>Deploying the web application on George Brown Server.</li>
+									<li>Created and managed a Docker deployment pipeline for custom application images in the cloud using Jenkins</li>
+								</ul>
+							</div>
+							<div class="row responsibilitytitle">
+								Frontend developer
+							</div>
+							<div class="row">
+								<ul>
+									<li>Used crispy forms enhanced with bootstrap 5 to create responsive form pages</li>
+									<li>Used jQuery Ajax for updating dynamic data based on user's entry</li>
+									<li>Used Bootstrap 5 tools like Grids, Flex and Modals</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<!-- Kitchen Library Modal -->
 		<div class="modal fade" id="kitchenProjectModal" tabindex="-1" role="dialog" aria-hidden="true">
